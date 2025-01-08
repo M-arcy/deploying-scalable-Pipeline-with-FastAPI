@@ -34,7 +34,7 @@ __Slice-Based Performance:__
 Performance metrics were also calculated on specific data slices, such as:
 
 * Workclass: Self-emp-inc — Precision: 0.7807 | Recall: 0.7542 | F1: 0.7672
-* *ducation: Bachelors — Precision: 0.7523 | Recall: 0.7289 | F1: 0.7404<br>
+* Education: Bachelors — Precision: 0.7523 | Recall: 0.7289 | F1: 0.7404<br>
 The full set of slice-based metrics is saved in the `slice_output.txt` file.
 
 ## Ethical Considerations
@@ -47,6 +47,6 @@ Additionally, income levels are shaped by broader socio-economic factors not cap
 Reference: For further reading on fairness and bias in machine learning, see Mitchell et al. (2019), Fairness and Abstraction in Sociotechnical Systems. [Link to paper can be found here.](https://arxiv.org/pdf/1811.07867)
 
 ## Caveats and Recommendations
-__Use Cases:__ This model is intended for research and educational purposes and should not be used for high-stakes decision-making.
-__Data Limitations:__ The census data is from a specific time period and may not reflect current socio-economic conditions.
+__Use Cases:__ This model is intended for research and educational purposes and should not be used for high-stakes decision-making.<br>
+__Data Limitations:__ The census data is from a specific time period and may not reflect current socio-economic conditions.<br>
 __Bias Mitigation:__ It is recommended to apply fairness-enhancing tools, such as Aequitas or FairLearn, to analyze and mitigate potential biases.
